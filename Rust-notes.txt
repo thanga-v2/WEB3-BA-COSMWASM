@@ -1,0 +1,34 @@
+Rust don't have garbage collector - no need to worry about memory allocation and de allocation
+
+No need of reference
+
+cargo is a package manager in Rust
+
+
+rustc <file-name> creates an executable file
+
+./<executable-file-name> to run from cli
+
+cargo init -- creates a rust_sandbox / devspace
+
+creates a src/main.rs and traget along with cargo.toml
+toml is similiar to what we see as package.json in nodejs
+
+
+cargo init rust_dev
+
+cargo run
+afterwards
+we can also run ./target/debug/rust_dev 
+
+cargo build
+
+and 
+
+cargo build --release for production
+
+Task 1 :
+Create a function in print.rs and Run it in main.rs 
+
+
+variables are immutables by default.
